@@ -1,0 +1,103 @@
+div #app {
+    margin-top: 5%;
+    overflow: hidden;
+}
+
+.search-input {
+    height: 35px;
+    max-width: 400px;
+    min-width: 100px;
+    margin: 5% auto 4% auto;
+}
+
+.table-adjust {
+    max-width: 600px;
+    margin: auto;
+}
+
+button {
+    color: white;
+    background-color: #cccccc;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 3px 6px;
+}
+button:hover {
+    background-color: #bfbfbf;
+}
+
+.activeModal {
+    display: hidden;
+    background-color: white;
+    padding: 10px 25px;
+    width: 380px;
+    height: 305px;
+    position: fixed;
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 200;
+}
+
+.btnCreate {
+    margin-top: 15px;
+}
+
+.showAnimation {
+    animation-name: example1;
+    animation-duration: 0.8s;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.labelDiv {
+    display: inline-block;
+    width: 50px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.inputDiv {
+    display: inline-block;
+    width: 200px;
+}
+
+.sexInput {
+    width: 95px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.greyBackground {
+    background-color: #808080;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.6;
+    z-index: 100;
+}
+
+.background-enter-active, .background-leave-active {
+    transition: opacity 0.5s;
+}
+
+.background-enter, .background-leave-active {
+    opacity: 0;
+}
+
+.modalFade-enter-active, .modalFade-leave-active {
+    transition: transform 0.5s;
+}
+
+.modalFade-enter, .modalFade-leave-active {
+    transform: rotateY(90deg);
+}
